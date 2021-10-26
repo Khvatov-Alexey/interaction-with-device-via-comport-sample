@@ -17,5 +17,8 @@
     <Setting Name="stopBits" Type="System.IO.Ports.StopBits" Scope="User">
       <Value Profile="(Default)">One</Value>
     </Setting>
+    <Setting Name="language" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

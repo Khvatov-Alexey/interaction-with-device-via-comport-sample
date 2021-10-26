@@ -37,9 +37,30 @@ namespace Serialport_communication
 
         public Form1()
         {
+            if (string.IsNullOrEmpty(Properties.Settings.Default.language))
+            {
+                Properties.Settings.Default.language = "ru-RU";
+                Properties.Settings.Default.Save();
+            }
+            Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.language);
+            Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.language);
             InitializeComponent();
             colorThemeSetup();
             logger.Info("===== ЗАПУСК ПРИЛОЖЕНИЯ =====");
+            
+
+            foreach (ToolStripMenuItem item in языкToolStripMenuItem.DropDownItems)
+            {
+                if (item.Text.Equals(Properties.Settings.Default.language))
+                {
+                    item.Checked = true;
+                    break;
+                }
+            }
+        }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
         private void Form1_Shown(object sender, EventArgs e)
         {
@@ -82,8 +103,8 @@ namespace Serialport_communication
 
         //---------------------------------------------------------------------------
 
-        #region Настройка цветов
-        private void colorThemeSetup()
+            #region Настройка цветов
+            private void colorThemeSetup()
         {
             foreach (ToolStripMenuItem item in menuStrip1.Items)
             {
@@ -700,6 +721,39 @@ namespace Serialport_communication
         #endregion
 
         //---------------------------------------------------------------------------
+
+        #region Localization
+        private void languageToolStripMenuItem_CheckedChanged(object sender, EventArgs e)
+        {
+            ToolStripMenuItem current = (ToolStripMenuItem) sender;
+
+            if(current.Checked)
+            {
+                foreach (ToolStripMenuItem item in языкToolStripMenuItem.DropDownItems)
+                {
+                    if (item.Checked && !item.Equals(current)) item.Checked = false;
+                }
+            }
+        }
+
+        private void languageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Properties.Settings.Default.language = ((ToolStripMenuItem)sender).Text;
+            Properties.Settings.Default.Save();
+
+            if (!Thread.CurrentThread.CurrentUICulture.Equals(System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.language)))
+            {
+                if(MessageBox.Show("Для применения языковых настроек требуется переагрузка приложения." + 
+                    Environment.NewLine + Environment.NewLine + "Перезагрузить приложение сейчас?", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                {
+                    Application.Restart();
+                }
+            }
+        }
+        #endregion
+
+        //---------------------------------------------------------------------------
+
 
 
 

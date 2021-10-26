@@ -139,7 +139,13 @@
     <EmbeddedResource Include="Alert\PopupNotification.resx">
       <DependentUpon>PopupNotification.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.en-US.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.ru.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Help\About.resx">
@@ -170,8 +176,14 @@
     <EmbeddedResource Include="UserControls\Indicator.resx">
       <DependentUpon>Indicator.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Voltagebox.en-US.resx">
+      <DependentUpon>Voltagebox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Voltagebox.resx">
       <DependentUpon>Voltagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Voltage_result_box.en-US.resx">
+      <DependentUpon>Voltage_result_box.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Voltage_result_box.resx">
       <DependentUpon>Voltage_result_box.cs</DependentUpon>

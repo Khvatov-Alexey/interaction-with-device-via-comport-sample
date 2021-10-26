@@ -29,6 +29,7 @@ namespace Serialport_communication.UserControls
         }
 
         private string _label_text = "Наименование параметра:";
+        [Localizable(true)]
         [Browsable(true), DefaultValue("Наименование параметра:"),
         DisplayName("Наименование параметра")]
         public string label_text
@@ -97,6 +98,13 @@ namespace Serialport_communication.UserControls
                 textBox1.ForeColor = Color.Black;
             }
             if (ValueChanged != null) ValueChanged(this, new EventArgs());
+        }
+
+        private void Voltage_result_box_SizeChanged(object sender, EventArgs e)
+        {
+            label2.Left = this.Width - label2.Width;
+            textBox1.Left = label2.Left - 5 - textBox1.Width;
+            label1.Left = textBox1.Left - 5 - label1.Width;
         }
     }
 }

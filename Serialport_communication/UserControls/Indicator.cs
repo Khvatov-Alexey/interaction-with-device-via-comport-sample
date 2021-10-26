@@ -17,8 +17,9 @@ namespace Serialport_communication.UserControls
             InitializeComponent();
             label1.Text = _label_text;
         }
-
+        
         private string _label_text = "Наименование";
+        [Localizable(true)]
         [Browsable(true), DefaultValue("Наименование"),
         DisplayName("Наименование")]
         public string label_text
