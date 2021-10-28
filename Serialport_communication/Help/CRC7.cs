@@ -43,6 +43,12 @@ namespace Serialport_communication.Help
 			0x46, 0x4f, 0x54, 0x5d, 0x62, 0x6b, 0x70, 0x79
 		};
 
+		/// <summary>
+		/// Calculation of a 7-bit checksum
+		/// </summary>
+		/// <param name="buffer">The sequence of bytes for which the checksum is calculated</param>
+		/// <param name="needLast">If true, then the last byte is involved in the checksum calculation</param>
+		/// <returns>Checksum byte</returns>
 		public static int crc7(byte[] buffer, bool needLast = true)
 		{
 			int c, crc;

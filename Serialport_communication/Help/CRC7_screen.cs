@@ -16,6 +16,34 @@ namespace Serialport_communication.Help
         {
             InitializeComponent();
         }
+        private void CRC7_screen_Load(object sender, EventArgs e)
+        {
+            // Place the window in the center of the parent
+            if (Owner != null && StartPosition == FormStartPosition.CenterParent)
+                Location = new Point(Owner.Location.X + Owner.Width / 2 - Width / 2, Owner.Location.Y + Owner.Height / 2 - Height / 2);
+        }
+        private void CRC7_screen_MouseDown(object sender, MouseEventArgs e)
+        {
+            // Allow dragging the form
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
+        }
+
+        private void label4_MouseDown(object sender, MouseEventArgs e)
+        {
+            // Allow dragging the form
+            base.Capture = true;
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            NLog.LogManager.GetCurrentClassLogger().Info("Пользователь: закрыл окно CRC7");
+            this.Close();
+        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -62,35 +90,9 @@ namespace Serialport_communication.Help
                 label7.Visible = true;
             }
         }
-
-        private void CRC7_screen_MouseDown(object sender, MouseEventArgs e)
-        {
-            base.Capture = false;
-            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
-            this.WndProc(ref m);
-        }
-        private void label4_MouseDown(object sender, MouseEventArgs e)
-        {
-            base.Capture = true;
-            base.Capture = false;
-            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
-            this.WndProc(ref m);
-        }
-
-        private void CRC7_screen_Load(object sender, EventArgs e)
-        {
-            if (Owner != null && StartPosition == FormStartPosition.CenterParent)
-                Location = new Point(Owner.Location.X + Owner.Width / 2 - Width / 2, Owner.Location.Y + Owner.Height / 2 - Height / 2);
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            NLog.LogManager.GetCurrentClassLogger().Info("Пользователь: закрыл окно CRC7");
-            this.Close();
-        }
         private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if(!char.IsDigit(e.KeyChar) &&!char.IsControl(e.KeyChar) && !(e.KeyChar >= 'A' && e.KeyChar <= 'F' || e.KeyChar >= 'a' && e.KeyChar <= 'f'))
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar) && !(e.KeyChar >= 'A' && e.KeyChar <= 'F' || e.KeyChar >= 'a' && e.KeyChar <= 'f'))
             {
                 Popup_notification.Show($"Ввод недопустимого символа \"{e.KeyChar}\"", Popup_notification.enmType.Error, this, 12);
                 NLog.LogManager.GetCurrentClassLogger().Warn($"Окно CRC7: Ввод недопустимого символа \"{e.KeyChar}\"");

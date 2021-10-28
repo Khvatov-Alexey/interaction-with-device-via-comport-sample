@@ -446,7 +446,16 @@ namespace Serialport_communication
             logger.Info("Пользователь: нажал Справка / Схема подключения");
             Help.ImageViewer connection_scheme = new Help.ImageViewer();
             connection_scheme.Owner = this;
-            connection_scheme.changeImage(Application.StartupPath + "//Schemes//connection_scheme.jpg");
+            switch(Thread.CurrentThread.CurrentUICulture.Name)
+            {
+                case "ru-RU":
+                case "ru":
+                    connection_scheme.changeImage(Application.StartupPath + "//Schemes//connection_scheme.jpg");
+                    break;
+                default:
+                    connection_scheme.changeImage(Application.StartupPath + "//Schemes//connection_scheme.en.jpg");
+                    break;
+            }
             connection_scheme.Show();
         }
         private void cRC7ToolStripMenuItem_Click(object sender, EventArgs e)

@@ -118,137 +118,95 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="очиститьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 348</value>
   </data>
-  <data name="очиститьToolStripMenuItem.Text" xml:space="preserve">
-    <value>New</value>
-  </data>
-  <data name="открытьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="открытьToolStripMenuItem.Text" xml:space="preserve">
-    <value>Open</value>
-  </data>
-  <data name="сохранитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="сохранитьToolStripMenuItem.Text" xml:space="preserve">
-    <value>Save</value>
-  </data>
-  <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 6</value>
-  </data>
-  <data name="выходToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>159, 22</value>
-  </data>
-  <data name="выходToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exit</value>
-  </data>
-  <data name="файлToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 39</value>
-  </data>
-  <data name="файлToolStripMenuItem.Text" xml:space="preserve">
-    <value>File</value>
-  </data>
-  <data name="testDeviceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 22</value>
-  </data>
-  <data name="testDeviceToolStripMenuItem.Text" xml:space="preserve">
-    <value>Device</value>
-  </data>
-  <data name="настройкиToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 39</value>
-  </data>
-  <data name="настройкиToolStripMenuItem.Text" xml:space="preserve">
-    <value>Setup</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>197, 6</value>
-  </data>
-  <data name="техническиеУсловияToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <data name="техническиеУсловияToolStripMenuItem.Text" xml:space="preserve">
-    <value>Connection scheme</value>
-  </data>
-  <data name="cRC7ToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 39</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="языкToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>84, 39</value>
-  </data>
-  <data name="языкToolStripMenuItem.Text" xml:space="preserve">
-    <value>Language</value>
-  </data>
-  <data name="groupBox4.Text" xml:space="preserve">
-    <value>Messages</value>
-  </data>
-  <data name="voltagebox3.label_text" xml:space="preserve">
-    <value>+50 V:</value>
-  </data>
-  <data name="voltagebox2.label_text" xml:space="preserve">
-    <value>+50 V add:</value>
-  </data>
-  <data name="voltagebox1.label_text" xml:space="preserve">
-    <value>+50 V main:</value>
-  </data>
-  <data name="groupBox2.Text" xml:space="preserve">
-    <value>Voltage setting</value>
-  </data>
-  <data name="indicator1.label_text" xml:space="preserve">
-    <value>Link</value>
-  </data>
-  <data name="checkBox3.Text" xml:space="preserve">
-    <value>Single</value>
-  </data>
-  <data name="checkBox2.Text" xml:space="preserve">
-    <value>Run</value>
-  </data>
-  <data name="groupBox3.Text" xml:space="preserve">
-    <value>Data exchange</value>
-  </data>
-  <data name="voltage_result_box7.label_text" xml:space="preserve">
-    <value>-12 V:</value>
-  </data>
-  <data name="voltage_result_box6.label_text" xml:space="preserve">
-    <value>+12 V:</value>
-  </data>
-  <data name="voltage_result_box5.label_text" xml:space="preserve">
-    <value>+5 V:</value>
-  </data>
-  <data name="voltage_result_box4.label_text" xml:space="preserve">
-    <value>+300 V:</value>
-  </data>
-  <data name="voltage_result_box3.label_text" xml:space="preserve">
-    <value>+50 V:</value>
-  </data>
-  <data name="voltage_result_box2.label_text" xml:space="preserve">
-    <value>+50 V add:</value>
-  </data>
-  <data name="voltage_result_box1.label_text" xml:space="preserve">
-    <value>+50 V main:</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>Output voltage</value>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>551, 26</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Device dashboard</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 20</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Enter the codogram in hex:</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>197, 17</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Example: F011300030005010</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Result:</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 11</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 29</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>CALC CRC7</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 17</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>number of bytes:</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 377</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 64</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 20</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Invalid input</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 20</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Intermediate result:</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

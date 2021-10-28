@@ -108,6 +108,7 @@ namespace Serialport_communication
             // 
             // файлToolStripMenuItem
             // 
+            resources.ApplyResources(this.файлToolStripMenuItem, "файлToolStripMenuItem");
             this.файлToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.очиститьToolStripMenuItem,
             this.открытьToolStripMenuItem,
@@ -116,53 +117,53 @@ namespace Serialport_communication
             this.выходToolStripMenuItem});
             this.файлToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.файлToolStripMenuItem.Name = "файлToolStripMenuItem";
-            resources.ApplyResources(this.файлToolStripMenuItem, "файлToolStripMenuItem");
             // 
             // очиститьToolStripMenuItem
             // 
-            this.очиститьToolStripMenuItem.Name = "очиститьToolStripMenuItem";
             resources.ApplyResources(this.очиститьToolStripMenuItem, "очиститьToolStripMenuItem");
+            this.очиститьToolStripMenuItem.Name = "очиститьToolStripMenuItem";
             this.очиститьToolStripMenuItem.Click += new System.EventHandler(this.очиститьToolStripMenuItem_Click);
             // 
             // открытьToolStripMenuItem
             // 
-            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
             resources.ApplyResources(this.открытьToolStripMenuItem, "открытьToolStripMenuItem");
+            this.открытьToolStripMenuItem.Name = "открытьToolStripMenuItem";
             this.открытьToolStripMenuItem.Click += new System.EventHandler(this.открытьToolStripMenuItem_Click);
             // 
             // сохранитьToolStripMenuItem
             // 
-            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
             resources.ApplyResources(this.сохранитьToolStripMenuItem, "сохранитьToolStripMenuItem");
+            this.сохранитьToolStripMenuItem.Name = "сохранитьToolStripMenuItem";
             this.сохранитьToolStripMenuItem.Click += new System.EventHandler(this.сохранитьToolStripMenuItem_Click);
             // 
             // toolStripMenuItem3
             // 
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             resources.ApplyResources(this.toolStripMenuItem3, "toolStripMenuItem3");
+            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             // 
             // выходToolStripMenuItem
             // 
-            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
             resources.ApplyResources(this.выходToolStripMenuItem, "выходToolStripMenuItem");
+            this.выходToolStripMenuItem.Name = "выходToolStripMenuItem";
             this.выходToolStripMenuItem.Click += new System.EventHandler(this.выходToolStripMenuItem_Click);
             // 
             // настройкиToolStripMenuItem
             // 
+            resources.ApplyResources(this.настройкиToolStripMenuItem, "настройкиToolStripMenuItem");
             this.настройкиToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.testDeviceToolStripMenuItem});
             this.настройкиToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.настройкиToolStripMenuItem.Name = "настройкиToolStripMenuItem";
-            resources.ApplyResources(this.настройкиToolStripMenuItem, "настройкиToolStripMenuItem");
             // 
             // testDeviceToolStripMenuItem
             // 
-            this.testDeviceToolStripMenuItem.Name = "testDeviceToolStripMenuItem";
             resources.ApplyResources(this.testDeviceToolStripMenuItem, "testDeviceToolStripMenuItem");
+            this.testDeviceToolStripMenuItem.Name = "testDeviceToolStripMenuItem";
             this.testDeviceToolStripMenuItem.Click += new System.EventHandler(this.testDeviceToolStripMenuItem_Click);
             // 
             // оПрограммеToolStripMenuItem
             // 
+            resources.ApplyResources(this.оПрограммеToolStripMenuItem, "оПрограммеToolStripMenuItem");
             this.оПрограммеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.оПрограммеToolStripMenuItem1,
             this.toolStripMenuItem5,
@@ -170,54 +171,53 @@ namespace Serialport_communication
             this.cRC7ToolStripMenuItem});
             this.оПрограммеToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.оПрограммеToolStripMenuItem.Name = "оПрограммеToolStripMenuItem";
-            resources.ApplyResources(this.оПрограммеToolStripMenuItem, "оПрограммеToolStripMenuItem");
             // 
             // оПрограммеToolStripMenuItem1
             // 
-            this.оПрограммеToolStripMenuItem1.Name = "оПрограммеToolStripMenuItem1";
             resources.ApplyResources(this.оПрограммеToolStripMenuItem1, "оПрограммеToolStripMenuItem1");
+            this.оПрограммеToolStripMenuItem1.Name = "оПрограммеToolStripMenuItem1";
             this.оПрограммеToolStripMenuItem1.Click += new System.EventHandler(this.оПрограммеToolStripMenuItem1_Click);
             // 
             // toolStripMenuItem5
             // 
-            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             resources.ApplyResources(this.toolStripMenuItem5, "toolStripMenuItem5");
+            this.toolStripMenuItem5.Name = "toolStripMenuItem5";
             // 
             // техническиеУсловияToolStripMenuItem
             // 
-            this.техническиеУсловияToolStripMenuItem.Name = "техническиеУсловияToolStripMenuItem";
             resources.ApplyResources(this.техническиеУсловияToolStripMenuItem, "техническиеУсловияToolStripMenuItem");
+            this.техническиеУсловияToolStripMenuItem.Name = "техническиеУсловияToolStripMenuItem";
             this.техническиеУсловияToolStripMenuItem.Click += new System.EventHandler(this.viewImageToolStripMenuItem_Click);
             // 
             // cRC7ToolStripMenuItem
             // 
-            this.cRC7ToolStripMenuItem.Name = "cRC7ToolStripMenuItem";
             resources.ApplyResources(this.cRC7ToolStripMenuItem, "cRC7ToolStripMenuItem");
+            this.cRC7ToolStripMenuItem.Name = "cRC7ToolStripMenuItem";
             this.cRC7ToolStripMenuItem.Click += new System.EventHandler(this.cRC7ToolStripMenuItem_Click);
             // 
             // языкToolStripMenuItem
             // 
+            resources.ApplyResources(this.языкToolStripMenuItem, "языкToolStripMenuItem");
             this.языкToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.русскийToolStripMenuItem,
             this.английскийToolStripMenuItem});
             this.языкToolStripMenuItem.Name = "языкToolStripMenuItem";
-            resources.ApplyResources(this.языкToolStripMenuItem, "языкToolStripMenuItem");
             // 
             // русскийToolStripMenuItem
             // 
+            resources.ApplyResources(this.русскийToolStripMenuItem, "русскийToolStripMenuItem");
             this.русскийToolStripMenuItem.Checked = true;
             this.русскийToolStripMenuItem.CheckOnClick = true;
             this.русскийToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.русскийToolStripMenuItem.Name = "русскийToolStripMenuItem";
-            resources.ApplyResources(this.русскийToolStripMenuItem, "русскийToolStripMenuItem");
             this.русскийToolStripMenuItem.CheckedChanged += new System.EventHandler(this.languageToolStripMenuItem_CheckedChanged);
             this.русскийToolStripMenuItem.Click += new System.EventHandler(this.languageToolStripMenuItem_Click);
             // 
             // английскийToolStripMenuItem
             // 
+            resources.ApplyResources(this.английскийToolStripMenuItem, "английскийToolStripMenuItem");
             this.английскийToolStripMenuItem.CheckOnClick = true;
             this.английскийToolStripMenuItem.Name = "английскийToolStripMenuItem";
-            resources.ApplyResources(this.английскийToolStripMenuItem, "английскийToolStripMenuItem");
             this.английскийToolStripMenuItem.CheckedChanged += new System.EventHandler(this.languageToolStripMenuItem_CheckedChanged);
             this.английскийToolStripMenuItem.Click += new System.EventHandler(this.languageToolStripMenuItem_Click);
             // 
@@ -230,8 +230,8 @@ namespace Serialport_communication
             // 
             // Mess
             // 
-            this.Mess.ContextMenuStrip = this.contextMenuStrip1;
             resources.ApplyResources(this.Mess, "Mess");
+            this.Mess.ContextMenuStrip = this.contextMenuStrip1;
             this.Mess.Name = "Mess";
             this.Mess.ReadOnly = true;
             this.Mess.TabStop = false;
@@ -239,11 +239,11 @@ namespace Serialport_communication
             // 
             // contextMenuStrip1
             // 
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.очиститьToolStripMenuItem1,
             this.логКомандToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             // 
             // очиститьToolStripMenuItem1
             // 
@@ -253,17 +253,17 @@ namespace Serialport_communication
             // 
             // логКомандToolStripMenuItem
             // 
+            resources.ApplyResources(this.логКомандToolStripMenuItem, "логКомандToolStripMenuItem");
             this.логКомандToolStripMenuItem.CheckOnClick = true;
             this.логКомандToolStripMenuItem.Name = "логКомандToolStripMenuItem";
-            resources.ApplyResources(this.логКомандToolStripMenuItem, "логКомандToolStripMenuItem");
             this.логКомандToolStripMenuItem.Click += new System.EventHandler(this.логКомандToolStripMenuItem_Click);
             // 
             // groupBox2
             // 
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Controls.Add(this.voltagebox3);
             this.groupBox2.Controls.Add(this.voltagebox2);
             this.groupBox2.Controls.Add(this.voltagebox1);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             // 
@@ -319,9 +319,9 @@ namespace Serialport_communication
             // 
             // panel7
             // 
+            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Controls.Add(this.groupBox4);
             this.panel7.Controls.Add(this.panel1);
-            resources.ApplyResources(this.panel7, "panel7");
             this.panel7.Name = "panel7";
             // 
             // panel1
@@ -334,6 +334,7 @@ namespace Serialport_communication
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.voltage_result_box7);
             this.groupBox1.Controls.Add(this.voltage_result_box6);
             this.groupBox1.Controls.Add(this.voltage_result_box5);
@@ -341,7 +342,6 @@ namespace Serialport_communication
             this.groupBox1.Controls.Add(this.voltage_result_box3);
             this.groupBox1.Controls.Add(this.voltage_result_box2);
             this.groupBox1.Controls.Add(this.voltage_result_box1);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
@@ -404,6 +404,11 @@ namespace Serialport_communication
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            resources.ApplyResources(this.openFileDialog1, "openFileDialog1");
+            // 
+            // saveFileDialog1
+            // 
+            resources.ApplyResources(this.saveFileDialog1, "saveFileDialog1");
             // 
             // Form1
             // 

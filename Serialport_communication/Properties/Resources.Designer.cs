@@ -93,6 +93,16 @@ namespace Serialport_communication.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap error_img_en {
+            get {
+                object obj = ResourceManager.GetObject("error_img_en", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_cancel_25px {
             get {
                 object obj = ResourceManager.GetObject("icons8_cancel_25px", resourceCulture);
@@ -116,16 +126,6 @@ namespace Serialport_communication.Properties {
         internal static System.Drawing.Bitmap processing_img {
             get {
                 object obj = ResourceManager.GetObject("processing-img", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap stub_img {
-            get {
-                object obj = ResourceManager.GetObject("stub-img", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

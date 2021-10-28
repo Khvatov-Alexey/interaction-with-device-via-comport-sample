@@ -15,10 +15,26 @@ namespace Serialport_communication.Help
         public ImageViewer()
         {
             InitializeComponent();
-            //this.SetStyle(ControlStyles.ResizeRedraw, true);
             changeSize();
         }
+        private void ImageViewer_Load(object sender, EventArgs e)
+        {
+            // Place the window in the center of the parent
+            if (Owner != null && StartPosition == FormStartPosition.CenterParent)
+                Location = new Point(Owner.Location.X + Owner.Width / 2 - Width / 2, Owner.Location.Y + Owner.Height / 2 - Height / 2);
+        }
+        private void ImageViewer_MouseDown(object sender, MouseEventArgs e)
+        {
+            // Allow dragging the form
+            base.Capture = false;
+            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
+            this.WndProc(ref m);
+        }
 
+        /// <summary>
+        /// Change the currently displayed image and window size
+        /// </summary>
+        /// <param name="location">image location</param>
         public void changeImage(string location)
         {
             pictureBox1.ImageLocation = location;
@@ -28,11 +44,24 @@ namespace Serialport_communication.Help
             }
             catch(Exception) 
             {
-                pictureBox1.Image = Properties.Resources.error_img;
+                switch(System.Threading.Thread.CurrentThread.CurrentUICulture.Name)
+                {
+                    case "ru-RU":
+                    case "ru":
+                        pictureBox1.Image = Properties.Resources.error_img;
+                        break;
+                    default:
+                        pictureBox1.Image = Properties.Resources.error_img_en;
+                        break;
+                }
+                
             }
             changeSize();
         }
 
+        /// <summary>
+        /// Resizing the window according to the size of the displayed image
+        /// </summary>
         private void changeSize()
         {
             Width = 800;
@@ -54,19 +83,7 @@ namespace Serialport_communication.Help
             NLog.LogManager.GetCurrentClassLogger().Info("Пользователь: закрыл окно Схема подключения");
             this.Close();
         }
-
-        private void ImageViewer_MouseDown(object sender, MouseEventArgs e)
-        {
-            base.Capture = false;
-            Message m = Message.Create(base.Handle, 0xa1, new IntPtr(2), IntPtr.Zero);
-            this.WndProc(ref m);
-        }
-
-        private void ImageViewer_Load(object sender, EventArgs e)
-        {
-            if (Owner != null && StartPosition == FormStartPosition.CenterParent)
-                Location = new Point(Owner.Location.X + Owner.Width / 2 - Width / 2, Owner.Location.Y + Owner.Height / 2 - Height / 2);
-        }
+        
 
         //private const int cGrip = 16;
         //private const int cCaption = 32;

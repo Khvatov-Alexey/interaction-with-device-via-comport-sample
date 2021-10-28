@@ -20,7 +20,7 @@ namespace Serialport_communication.Help
             this.MaximumSize = this.Size;
             this.AcceptButton = button1;
             this.CancelButton = button1;
-            this.Text = "О Программе - " + this.ProductName;
+            this.Text = $"{this.Text} - {this.ProductName}";
             label5.Text = this.ProductName;
             label8.Text = this.ProductVersion;
 

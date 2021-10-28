@@ -91,6 +91,11 @@
     <Compile Include="Model\FDK_output.cs" />
     <Compile Include="Model\OpenOrWriteException.cs" />
     <Compile Include="Model\ReadException.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Setup\TestDevice.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +141,11 @@
     <Compile Include="UserControls\Voltage_result_box.Designer.cs">
       <DependentUpon>Voltage_result_box.cs</DependentUpon>
     </Compile>
+    <None Include="Resources\error-img.en.jpg" />
+    <None Include="Schemes\connection_scheme.en.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\stub-img.en.jpg" />
     <EmbeddedResource Include="Alert\PopupNotification.resx">
       <DependentUpon>PopupNotification.cs</DependentUpon>
     </EmbeddedResource>
@@ -148,8 +158,14 @@
     <EmbeddedResource Include="Form1.ru.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Help\About.en-US.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Help\About.resx">
       <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help\CRC7_screen.en-US.resx">
+      <DependentUpon>CRC7_screen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Help\CRC7_screen.resx">
       <DependentUpon>CRC7_screen.cs</DependentUpon>
@@ -159,14 +175,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="Setup\TestDevice.resx">
       <DependentUpon>TestDevice.cs</DependentUpon>
     </EmbeddedResource>
