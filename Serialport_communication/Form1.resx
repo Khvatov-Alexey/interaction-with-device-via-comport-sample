@@ -140,8 +140,12 @@
   <data name="русскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 22</value>
   </data>
-  <data name="&gt;&gt;voltage_result_box6.Name" xml:space="preserve">
-    <value>voltage_result_box6</value>
+  <data name="voltage_result_box4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="indicator1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 40</value>
@@ -149,7 +153,12 @@
   <data name="voltagebox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 115</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="testDeviceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 22</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 103</value>
+  </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>71</value>
   </data>
@@ -161,6 +170,9 @@
   </data>
   <data name="voltagebox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 29</value>
+  </data>
+  <data name="&gt;&gt;testDeviceToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="voltagebox2.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 78</value>
@@ -176,6 +188,9 @@
   </data>
   <data name="оПрограммеToolStripMenuItem1.Text" xml:space="preserve">
     <value>О программе</value>
+  </data>
+  <data name="cRC7ToolStripMenuItem.Text" xml:space="preserve">
+    <value>CRC7</value>
   </data>
   <data name="&gt;&gt;voltagebox3.Type" xml:space="preserve">
     <value>Serialport_communication.UserControls.Voltagebox, Serialport_communication, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -222,14 +237,8 @@
   <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 31</value>
-  </data>
   <data name="voltage_result_box1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="voltage_result_box1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -240,14 +249,11 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Панель управления</value>
   </data>
-  <data name="&gt;&gt;testDeviceToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="техническиеУсловияToolStripMenuItem.Text" xml:space="preserve">
+    <value>Схема подключения</value>
   </data>
   <data name="Mess.Size" type="System.Drawing.Size, System.Drawing">
     <value>444, 387</value>
-  </data>
-  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Mess.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -266,6 +272,9 @@
   </data>
   <data name="indicator1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+  </data>
+  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>206, 6</value>
   </data>
   <data name="voltage_result_box5.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -291,20 +300,14 @@
   <data name="&gt;&gt;voltage_result_box1.Name" xml:space="preserve">
     <value>voltage_result_box1</value>
   </data>
-  <data name="voltagebox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="&gt;&gt;voltage_result_box5.Name" xml:space="preserve">
     <value>voltage_result_box5</value>
   </data>
-  <data name="оПрограммеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 39</value>
-  </data>
-  <data name="техническиеУсловияToolStripMenuItem.Text" xml:space="preserve">
-    <value>Схема подключения</value>
+  <data name="&gt;&gt;voltage_result_box6.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
     <value>452, 411</value>
@@ -357,14 +360,11 @@
   <data name="groupBox3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="аОМЗРИПToolStripMenuItem.Text" xml:space="preserve">
-    <value>АО "МЗ РИП"</value>
+  <data name="&gt;&gt;английскийToolStripMenuItem.Name" xml:space="preserve">
+    <value>английскийToolStripMenuItem</value>
   </data>
   <data name="menuStrip1.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
-  </data>
-  <data name="voltage_result_box6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="toolStripMenuItem3.Size" type="System.Drawing.Size, System.Drawing">
     <value>188, 6</value>
@@ -381,11 +381,17 @@
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="&gt;&gt;indicator1.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="Mess.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;Mess.Name" xml:space="preserve">
     <value>Mess</value>
@@ -414,6 +420,9 @@
   <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
     <value>contextMenuStrip1</value>
   </data>
+  <data name="аОМЗРИПToolStripMenuItem.Text" xml:space="preserve">
+    <value>АО "МЗ РИП"</value>
+  </data>
   <data name="открытьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>191, 22</value>
   </data>
@@ -429,8 +438,8 @@
   <data name="сохранитьToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Ctrl+S</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
   </data>
   <data name="&gt;&gt;voltage_result_box4.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -453,9 +462,6 @@
   <data name="&gt;&gt;cRC7ToolStripMenuItem.Name" xml:space="preserve">
     <value>cRC7ToolStripMenuItem</value>
   </data>
-  <data name="оПрограммеToolStripMenuItem.Text" xml:space="preserve">
-    <value>Справка</value>
-  </data>
   <data name="файлToolStripMenuItem.Text" xml:space="preserve">
     <value>Файл</value>
   </data>
@@ -464,9 +470,6 @@
   </data>
   <data name="&gt;&gt;voltage_result_box7.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="&gt;&gt;английскийToolStripMenuItem.Name" xml:space="preserve">
-    <value>английскийToolStripMenuItem</value>
   </data>
   <data name="voltage_result_box5.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
@@ -479,9 +482,6 @@
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>panel1</value>
   </data>
   <data name="voltage_result_box1.label_text" xml:space="preserve">
     <value>+50 В ОСН:</value>
@@ -524,9 +524,6 @@
   </data>
   <data name="voltage_result_box1.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 29</value>
-  </data>
-  <data name="&gt;&gt;русскийToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;voltage_result_box2.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -576,8 +573,8 @@
   <data name="checkBox3.Location" type="System.Drawing.Point, System.Drawing">
     <value>197, 37</value>
   </data>
-  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 103</value>
+  <data name="voltage_result_box6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="menuStrip1.Text" xml:space="preserve">
     <value>menuStrip1</value>
@@ -591,11 +588,8 @@
   <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="voltagebox3.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="voltage_result_box4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="английскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
   </data>
   <data name="panel7.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -612,8 +606,8 @@
   <data name="groupBox4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;voltage_result_box1.Type" xml:space="preserve">
     <value>Serialport_communication.UserControls.Voltage_result_box, Serialport_communication, Version=0.1.0.0, Culture=neutral, PublicKeyToken=null</value>
@@ -642,8 +636,8 @@
   <data name="Mess.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 20</value>
   </data>
-  <data name="&gt;&gt;voltagebox3.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;voltage_result_box6.Name" xml:space="preserve">
+    <value>voltage_result_box6</value>
   </data>
   <data name="checkBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -672,8 +666,8 @@
   <data name="&gt;&gt;voltage_result_box5.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="voltagebox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10pt</value>
+  <data name="&gt;&gt;checkBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="voltage_result_box2.Size" type="System.Drawing.Size, System.Drawing">
     <value>236, 29</value>
@@ -741,11 +735,8 @@
   <data name="&gt;&gt;настройкиToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="английскийToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="оПрограммеToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
+  <data name="voltagebox3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="voltage_result_box6.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -767,6 +758,21 @@
   </data>
   <data name="checkBox2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="voltage_result_box2.Value" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAMcCbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1u
+        ZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0sIG1zY29ybGliLCBWZXJzaW9u
+        PTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0s
+        W1N5c3RlbS5Cb29sZWFuLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWws
+        IFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXSwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAu
+        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5DAMAAACaAW1z
+        Y29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
+        YTVjNTYxOTM0ZTA4OV1dLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWws
+        IFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAADBTeXN0ZW0uVHVwbGVgMltbU3lzdGVt
+        Lk51bGxhYmxlYDFbW1N5c3RlbS5Eb3VibGUCAAAAB21fSXRlbTEHbV9JdGVtMgQAIFN5c3RlbS5OdWxs
+        YWJsZWAxW1tTeXN0ZW0uRG91YmxlAwAAAAECAAAACgAL
+</value>
   </data>
   <data name="checkBox2.Text" xml:space="preserve">
     <value>Циклический</value>
@@ -837,8 +843,8 @@
   <data name="Mess.Text" xml:space="preserve">
     <value />
   </data>
-  <data name="&gt;&gt;indicator1.Parent" xml:space="preserve">
-    <value>groupBox3</value>
+  <data name="&gt;&gt;русскийToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -866,9 +872,6 @@
   </data>
   <data name="&gt;&gt;файлToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="русскийToolStripMenuItem.Text" xml:space="preserve">
-    <value>ru-RU</value>
   </data>
   <data name="аОМЗРИПToolStripMenuItem.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -906,6 +909,9 @@
   <data name="voltage_result_box6.label_text" xml:space="preserve">
     <value>+12 В:</value>
   </data>
+  <data name="&gt;&gt;выходToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="groupBox3.Text" xml:space="preserve">
     <value>Обмен данными</value>
   </data>
@@ -936,8 +942,8 @@
   <data name="&gt;&gt;voltage_result_box7.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;выходToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="оПрограммеToolStripMenuItem.Text" xml:space="preserve">
+    <value>Справка</value>
   </data>
   <data name="voltage_result_box4.Value" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -957,6 +963,9 @@
   <data name="&gt;&gt;сохранитьToolStripMenuItem.Name" xml:space="preserve">
     <value>сохранитьToolStripMenuItem</value>
   </data>
+  <data name="openFileDialog1.Title" xml:space="preserve">
+    <value>Открытие измерений</value>
+  </data>
   <data name="voltage_result_box6.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 226</value>
   </data>
@@ -971,6 +980,9 @@
   </data>
   <data name="техническиеУсловияToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>209, 22</value>
+  </data>
+  <data name="voltagebox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt</value>
   </data>
   <data name="открытьToolStripMenuItem.Text" xml:space="preserve">
     <value>Открыть</value>
@@ -990,8 +1002,8 @@
         YWJsZWAxW1tTeXN0ZW0uRG91YmxlAwAAAAECAAAACgAL
 </value>
   </data>
-  <data name="&gt;&gt;voltage_result_box6.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="checkBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 31</value>
   </data>
   <data name="indicator1.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 25</value>
@@ -1002,8 +1014,14 @@
   <data name="&gt;&gt;panel7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;voltagebox3.Name" xml:space="preserve">
+    <value>voltagebox3</value>
+  </data>
   <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
     <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;voltagebox3.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;английскийToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1026,8 +1044,8 @@
   <data name="&gt;&gt;cRC7ToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="toolStripMenuItem5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>206, 6</value>
+  <data name="русскийToolStripMenuItem.Text" xml:space="preserve">
+    <value>ru-RU</value>
   </data>
   <data name="voltage_result_box3.label_text" xml:space="preserve">
     <value>+50 В:</value>
@@ -1043,6 +1061,9 @@
   </data>
   <data name="&gt;&gt;очиститьToolStripMenuItem1.Name" xml:space="preserve">
     <value>очиститьToolStripMenuItem1</value>
+  </data>
+  <data name="saveFileDialog1.Title" xml:space="preserve">
+    <value>Сохранение измерений</value>
   </data>
   <data name="аОМЗРИПToolStripMenuItem.ImageScaling" type="System.Windows.Forms.ToolStripItemImageScaling, System.Windows.Forms">
     <value>None</value>
@@ -1101,11 +1122,8 @@
   <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>1018, 462</value>
   </data>
-  <data name="voltagebox3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 29</value>
-  </data>
-  <data name="testDeviceToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 22</value>
+  <data name="оПрограммеToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 39</value>
   </data>
   <data name="&gt;&gt;сохранитьToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1116,9 +1134,6 @@
   <data name="&gt;&gt;voltage_result_box4.Name" xml:space="preserve">
     <value>voltage_result_box4</value>
   </data>
-  <data name="checkBox2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;языкToolStripMenuItem.Name" xml:space="preserve">
     <value>языкToolStripMenuItem</value>
   </data>
@@ -1128,8 +1143,8 @@
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>8, 2, 0, 2</value>
   </data>
-  <data name="&gt;&gt;voltagebox3.Name" xml:space="preserve">
-    <value>voltagebox3</value>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;Mess.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1140,8 +1155,8 @@
   <data name="аОМЗРИПToolStripMenuItem.ToolTipText" xml:space="preserve">
     <value>АО "МЗ РИП"</value>
   </data>
-  <data name="cRC7ToolStripMenuItem.Text" xml:space="preserve">
-    <value>CRC7</value>
+  <data name="voltagebox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="&gt;&gt;checkBox2.Name" xml:space="preserve">
     <value>checkBox2</value>
@@ -1149,20 +1164,8 @@
   <data name="voltage_result_box5.label_text" xml:space="preserve">
     <value>+5 В:</value>
   </data>
-  <data name="voltage_result_box2.Value" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAMcCbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1u
-        ZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0sIG1zY29ybGliLCBWZXJzaW9u
-        PTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OV0s
-        W1N5c3RlbS5Cb29sZWFuLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWws
-        IFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODldXSwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAu
-        MCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5DAMAAACaAW1z
-        Y29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3
-        YTVjNTYxOTM0ZTA4OV1dLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWws
-        IFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAADBTeXN0ZW0uVHVwbGVgMltbU3lzdGVt
-        Lk51bGxhYmxlYDFbW1N5c3RlbS5Eb3VibGUCAAAAB21fSXRlbTEHbV9JdGVtMgQAIFN5c3RlbS5OdWxs
-        YWJsZWAxW1tTeXN0ZW0uRG91YmxlAwAAAAECAAAACgAL
-</value>
+  <data name="voltagebox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>236, 29</value>
   </data>
   <data name="indicator1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

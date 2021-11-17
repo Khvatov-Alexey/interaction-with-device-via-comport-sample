@@ -178,8 +178,14 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Setup\TestDevice.en-US.resx">
+      <DependentUpon>TestDevice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Setup\TestDevice.resx">
       <DependentUpon>TestDevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\UI.en-US.resx">
+      <DependentUpon>UI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Setup\UI.resx">
       <DependentUpon>UI.cs</DependentUpon>

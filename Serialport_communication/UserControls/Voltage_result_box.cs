@@ -12,8 +12,6 @@ namespace Serialport_communication.UserControls
 {
     public partial class Voltage_result_box : UserControl
     {
-        private static string nullValue = "Нет данных";
-
         public Voltage_result_box()
         {
             InitializeComponent();
@@ -27,6 +25,11 @@ namespace Serialport_communication.UserControls
             }
             changeColors();
         }
+        [Localizable(true)]
+        [Browsable(true), DefaultValue("Нет данных"),
+        DisplayName("nullValue"), Description("Отображаемый текст при значении null")]
+        public string nullValue { get; set; } = "Нет данных";
+
 
         private string _label_text = "Наименование параметра:";
         [Localizable(true)]

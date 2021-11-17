@@ -288,7 +288,6 @@ namespace Serialport_communication
             }
 
             System.IO.Directory.CreateDirectory(Application.StartupPath + @"\Измерения");
-            openFileDialog1.Title = "Открытие измерений";
             openFileDialog1.DefaultExt = "ini";
             openFileDialog1.Filter = "All|*|ini|*.ini";
             openFileDialog1.FilterIndex = 2;
@@ -301,7 +300,7 @@ namespace Serialport_communication
                 try
                 {
                     string separator = Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator;
-                    /// Используется carnel32 ini по просьбе коллег
+                    ///  Carnel32 ini was used to the technical task
                     IniFile fileConfig = new IniFile(saveFileDialog1.FileName);
                     string section = "", name = "";
                     DateTime? date = null;
@@ -375,7 +374,6 @@ namespace Serialport_communication
         {
             logger.Info("Пользователь: нажал Файл / Сохранить");
             System.IO.Directory.CreateDirectory(Application.StartupPath + @"\Измерения");
-            saveFileDialog1.Title = "Сохранение измерений";
             saveFileDialog1.DefaultExt = "ini";
             saveFileDialog1.Filter = "All|*|ini|*.ini";
             saveFileDialog1.FilterIndex = 2;
@@ -387,7 +385,7 @@ namespace Serialport_communication
             catch (Exception) { }
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                /// Используется carnel32 ini по просьбе коллег
+                ///  Carnel32 ini was used to the technical task
                 IniFile fileConfig = new IniFile(saveFileDialog1.FileName);
                 string section;
 
@@ -481,7 +479,8 @@ namespace Serialport_communication
             if (checkBox3.Checked)
             {
                 checkBox2.Checked = false;
-                indicator1.label_text = "Связь (однократно)";
+                System.ComponentModel.ComponentResourceManager resources = new ComponentResourceManager(typeof(Form1));
+                indicator1.label_text = resources.GetString("indicator1.label_text") + " (Однократно)";
             }
 
         }
@@ -495,7 +494,8 @@ namespace Serialport_communication
             if (checkBox2.Checked)
             {
                 checkBox3.Checked = false;
-                indicator1.label_text = "Связь";
+                System.ComponentModel.ComponentResourceManager resources = new ComponentResourceManager(typeof(Form1));
+                indicator1.label_text = resources.GetString("indicator1.label_text");
             }
         }
         private void checkBox2_Click(object sender, EventArgs e)
@@ -709,7 +709,8 @@ namespace Serialport_communication
         private void clearUI()
         {
             indicator1.color_result = Color.Silver;
-            indicator1.label_text = "Связь";
+            System.ComponentModel.ComponentResourceManager resources = new ComponentResourceManager(typeof(Form1));
+            indicator1.label_text = resources.GetString("indicator1.label_text");
 
             Mess.Clear();
 
@@ -753,7 +754,7 @@ namespace Serialport_communication
             if (!Thread.CurrentThread.CurrentUICulture.Equals(System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.language)))
             {
                 if(MessageBox.Show("Для применения языковых настроек требуется переагрузка приложения." + 
-                    Environment.NewLine + Environment.NewLine + "Перезагрузить приложение сейчас?", "Question", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                    Environment.NewLine + Environment.NewLine + "Перезагрузить приложение сейчас?", "", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     Application.Restart();
                 }

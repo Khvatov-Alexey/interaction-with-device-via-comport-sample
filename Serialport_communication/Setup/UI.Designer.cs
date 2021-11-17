@@ -29,7 +29,7 @@ namespace Serialport_communication.Setup
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Тестируемое устройство");
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UI));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -47,116 +47,85 @@ namespace Serialport_communication.Setup
             // 
             // splitContainer1
             // 
+            resources.ApplyResources(this.splitContainer1, "splitContainer1");
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainer1.IsSplitterFixed = true;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
+            resources.ApplyResources(this.splitContainer1.Panel1, "splitContainer1.Panel1");
             this.splitContainer1.Panel1.Controls.Add(this.treeView1);
-            this.splitContainer1.Size = new System.Drawing.Size(799, 499);
-            this.splitContainer1.SplitterDistance = 250;
-            this.splitContainer1.TabIndex = 5;
+            // 
+            // splitContainer1.Panel2
+            // 
+            resources.ApplyResources(this.splitContainer1.Panel2, "splitContainer1.Panel2");
             this.splitContainer1.TabStop = false;
             // 
             // treeView1
             // 
-            this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.treeView1, "treeView1");
             this.treeView1.FullRowSelect = true;
             this.treeView1.HideSelection = false;
             this.treeView1.ItemHeight = 20;
-            this.treeView1.Location = new System.Drawing.Point(0, 0);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "Узел0";
-            treeNode1.Text = "Тестируемое устройство";
-            treeNode1.ToolTipText = "Отладочное соединение с регулируемым устройством";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode1});
+            ((System.Windows.Forms.TreeNode)(resources.GetObject("treeView1.Nodes")))});
             this.treeView1.ShowNodeToolTips = true;
-            this.treeView1.Size = new System.Drawing.Size(246, 495);
-            this.treeView1.TabIndex = 0;
             // 
             // panel1
             // 
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.chb_advancedSettings);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 499);
-            this.panel1.MinimumSize = new System.Drawing.Size(200, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(799, 55);
-            this.panel1.TabIndex = 6;
             // 
             // panel2
             // 
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.bt_cancel);
             this.panel2.Controls.Add(this.bt_ok);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(487, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(312, 55);
-            this.panel2.TabIndex = 3;
             // 
             // bt_cancel
             // 
-            this.bt_cancel.Location = new System.Drawing.Point(200, 18);
+            resources.ApplyResources(this.bt_cancel, "bt_cancel");
             this.bt_cancel.Name = "bt_cancel";
-            this.bt_cancel.Size = new System.Drawing.Size(100, 25);
-            this.bt_cancel.TabIndex = 2;
-            this.bt_cancel.Text = "Отмена";
             this.bt_cancel.UseVisualStyleBackColor = true;
             this.bt_cancel.Click += new System.EventHandler(this.bt_cancel_Click);
             // 
             // bt_ok
             // 
-            this.bt_ok.Location = new System.Drawing.Point(94, 18);
+            resources.ApplyResources(this.bt_ok, "bt_ok");
             this.bt_ok.Name = "bt_ok";
-            this.bt_ok.Size = new System.Drawing.Size(100, 25);
-            this.bt_ok.TabIndex = 1;
-            this.bt_ok.Text = "ОК";
             this.bt_ok.UseVisualStyleBackColor = true;
             this.bt_ok.Click += new System.EventHandler(this.bt_ok_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(211, 18);
+            resources.ApplyResources(this.button2, "button2");
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(206, 25);
-            this.button2.TabIndex = 14;
-            this.button2.Text = "Сбросить все настройки";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // chb_advancedSettings
             // 
-            this.chb_advancedSettings.AutoSize = true;
-            this.chb_advancedSettings.Location = new System.Drawing.Point(12, 21);
+            resources.ApplyResources(this.chb_advancedSettings, "chb_advancedSettings");
             this.chb_advancedSettings.Name = "chb_advancedSettings";
-            this.chb_advancedSettings.Size = new System.Drawing.Size(193, 21);
-            this.chb_advancedSettings.TabIndex = 5;
-            this.chb_advancedSettings.Text = "Расширенные настройки";
             this.chb_advancedSettings.UseVisualStyleBackColor = true;
             this.chb_advancedSettings.CheckedChanged += new System.EventHandler(this.chb_advancedSettings_CheckedChanged);
             this.chb_advancedSettings.Click += new System.EventHandler(this.chb_advancedSettings_Click);
             // 
             // UI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(196)))), ((int)(((byte)(205)))));
-            this.ClientSize = new System.Drawing.Size(799, 554);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UI";
             this.ShowInTaskbar = false;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "Настройки";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.UI_FormClosing);
             this.splitContainer1.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
